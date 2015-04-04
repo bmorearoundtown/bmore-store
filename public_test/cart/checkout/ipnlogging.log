@@ -1,0 +1,349 @@
+[2014-10-06 17:50 CST6CDT] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1417
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=445.00&protection_eligibility=Ineligible&item_number1=&tax=0.00&item_number2=&payer_id=NJT7MKD83GTA8&item_number3=&item_number4=&payment_date=15%3A50%3A44+Oct+06%2C+2014+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=bmore&mc_fee=13.21&notify_version=3.8&custom=RkFSLTA5MTgzQSxGQVItODUxMzNCLEZBUi0wNjcwMkMsRkFSLTI2OTg1RA%3D%3D&payer_status=verified&business=scottymitch88%40gmail.com&num_cart_items=4&mc_handling1=0.00&mc_handling2=0.00&mc_handling3=0.00&mc_handling4=0.00&verify_sign=AtHVTGnnuXeGOqwNPd37sqFBOBjhAM4X8zMKw9xROY3cuQWBXQ4qzTGu&payer_email=testingbmorebuying%40gmail.com&mc_shipping1=0.00&mc_shipping2=0.00&mc_shipping3=0.00&tax1=0.00&mc_shipping4=0.00&tax2=0.00&tax3=0.00&tax4=0.00&txn_id=3UD573875X0669606&payment_type=instant&last_name=buyer&item_name1=Falcons+at+Ravens%2C+TAILGATE+ONLY&receiver_email=scottymitch88%40gmail.com&item_name2=Falcons+at+Ravens%2C+PARKING+ONLY&payment_fee=13.21&item_name3=Falcons+at+Ravens%2C+Ticket+and+Tailgate&item_name4=Parking+and+Tailgate+Passes&quantity1=1&quantity2=4&receiver_id=G86XESUQ3TJ7S&quantity3=1&txn_type=cart&quantity4=1&mc_gross_1=30.00&mc_currency=USD&mc_gross_2=140.00&mc_gross_3=140.00&residence_country=US&test_ipn=1&mc_gross_4=135.00&transaction_subject=RkFSLTA5MTgzQSxGQVItODUxMzNCLEZBUi0wNjcwMkMsRkFSLTI2OTg1RA%3D%3D&payment_gross=445.00&ipn_track_id=a448fc70c5d63
+[2014-10-06 17:50 CST6CDT] HTTP response of validation request: HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Date: Mon, 06 Oct 2014 22:50:51 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=7O-6HQtaw9DZWKu1UG-hZ5ubeU-J2OkIMpMWICFjO5QVZi52OBX33OGbH0omrisXm2GsaPu_IpIF0o7c7dTy2Wph1OCTVG0TLR0k0lRjRBxVztjGtX0eCI7TFQkaQdCTJOrEuOoR87wDig4sAS0CK-E6mltDSNgEapqPs0PGVWDUDJwmssb0u3zz37gdfYir8nZ8ehwCOg7AKSUinMc-qgVqMJfFNKHFEzljw-UP7zpy3N6xmHP1nMdMyQq4E8zJ-eSz8qJgsirkew2VzWD0BldrFOMGFh909blIcDUoLyP_4vfvIciaQEJ3gQ1RNMAHHuV60z_VaE1xbga0kFXLgZPFLSG6NsADCs0lYezTiRph9jXs2QfVZGga7i87z6bgX9phJCrbYU8yhUc2mLEOQUV0sbO5k-NtQSvs3HIY2vW4bzFZ5uo_ghr6P9q; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 03-Oct-2024 22:50:52 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 05-Oct-2016 22:50:52 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1412635851727738; path=/; expires=Wed, 28-Sep-44 22:50:51 GMT
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D3407622996; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1412635851713704; path=/; expires=Wed, 28-Sep-44 22:50:51 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2014-10-06 17:50 CST6CDT] REGISTRATION CODE:FAR-09183A
+[2014-10-06 17:50 CST6CDT] REPLY:HTTP/1.1 200 OK
+Date: Mon, 06 Oct 2014 22:50:51 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=7O-6HQtaw9DZWKu1UG-hZ5ubeU-J2OkIMpMWICFjO5QVZi52OBX33OGbH0omrisXm2GsaPu_IpIF0o7c7dTy2Wph1OCTVG0TLR0k0lRjRBxVztjGtX0eCI7TFQkaQdCTJOrEuOoR87wDig4sAS0CK-E6mltDSNgEapqPs0PGVWDUDJwmssb0u3zz37gdfYir8nZ8ehwCOg7AKSUinMc-qgVqMJfFNKHFEzljw-UP7zpy3N6xmHP1nMdMyQq4E8zJ-eSz8qJgsirkew2VzWD0BldrFOMGFh909blIcDUoLyP_4vfvIciaQEJ3gQ1RNMAHHuV60z_VaE1xbga0kFXLgZPFLSG6NsADCs0lYezTiRph9jXs2QfVZGga7i87z6bgX9phJCrbYU8yhUc2mLEOQUV0sbO5k-NtQSvs3HIY2vW4bzFZ5uo_ghr6P9q; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 03-Oct-2024 22:50:52 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 05-Oct-2016 22:50:52 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1412635851727738; path=/; expires=Wed, 28-Sep-44 22:50:51 GMT
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D3407622996; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1412635851713704; path=/; expires=Wed, 28-Sep-44 22:50:51 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+[2014-10-06 17:50 CST6CDT] REGISTRATION CODE:FAR-85133B
+[2014-10-06 17:50 CST6CDT] REPLY:HTTP/1.1 200 OK
+Date: Mon, 06 Oct 2014 22:50:51 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=7O-6HQtaw9DZWKu1UG-hZ5ubeU-J2OkIMpMWICFjO5QVZi52OBX33OGbH0omrisXm2GsaPu_IpIF0o7c7dTy2Wph1OCTVG0TLR0k0lRjRBxVztjGtX0eCI7TFQkaQdCTJOrEuOoR87wDig4sAS0CK-E6mltDSNgEapqPs0PGVWDUDJwmssb0u3zz37gdfYir8nZ8ehwCOg7AKSUinMc-qgVqMJfFNKHFEzljw-UP7zpy3N6xmHP1nMdMyQq4E8zJ-eSz8qJgsirkew2VzWD0BldrFOMGFh909blIcDUoLyP_4vfvIciaQEJ3gQ1RNMAHHuV60z_VaE1xbga0kFXLgZPFLSG6NsADCs0lYezTiRph9jXs2QfVZGga7i87z6bgX9phJCrbYU8yhUc2mLEOQUV0sbO5k-NtQSvs3HIY2vW4bzFZ5uo_ghr6P9q; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 03-Oct-2024 22:50:52 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 05-Oct-2016 22:50:52 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1412635851727738; path=/; expires=Wed, 28-Sep-44 22:50:51 GMT
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D3407622996; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1412635851713704; path=/; expires=Wed, 28-Sep-44 22:50:51 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+[2014-10-06 17:50 CST6CDT] REGISTRATION CODE:FAR-06702C
+[2014-10-06 17:50 CST6CDT] REPLY:HTTP/1.1 200 OK
+Date: Mon, 06 Oct 2014 22:50:51 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=7O-6HQtaw9DZWKu1UG-hZ5ubeU-J2OkIMpMWICFjO5QVZi52OBX33OGbH0omrisXm2GsaPu_IpIF0o7c7dTy2Wph1OCTVG0TLR0k0lRjRBxVztjGtX0eCI7TFQkaQdCTJOrEuOoR87wDig4sAS0CK-E6mltDSNgEapqPs0PGVWDUDJwmssb0u3zz37gdfYir8nZ8ehwCOg7AKSUinMc-qgVqMJfFNKHFEzljw-UP7zpy3N6xmHP1nMdMyQq4E8zJ-eSz8qJgsirkew2VzWD0BldrFOMGFh909blIcDUoLyP_4vfvIciaQEJ3gQ1RNMAHHuV60z_VaE1xbga0kFXLgZPFLSG6NsADCs0lYezTiRph9jXs2QfVZGga7i87z6bgX9phJCrbYU8yhUc2mLEOQUV0sbO5k-NtQSvs3HIY2vW4bzFZ5uo_ghr6P9q; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 03-Oct-2024 22:50:52 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 05-Oct-2016 22:50:52 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1412635851727738; path=/; expires=Wed, 28-Sep-44 22:50:51 GMT
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D3407622996; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1412635851713704; path=/; expires=Wed, 28-Sep-44 22:50:51 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+[2014-10-06 17:50 CST6CDT] REGISTRATION CODE:FAR-26985D
+[2014-10-06 17:50 CST6CDT] REPLY:HTTP/1.1 200 OK
+Date: Mon, 06 Oct 2014 22:50:51 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=7O-6HQtaw9DZWKu1UG-hZ5ubeU-J2OkIMpMWICFjO5QVZi52OBX33OGbH0omrisXm2GsaPu_IpIF0o7c7dTy2Wph1OCTVG0TLR0k0lRjRBxVztjGtX0eCI7TFQkaQdCTJOrEuOoR87wDig4sAS0CK-E6mltDSNgEapqPs0PGVWDUDJwmssb0u3zz37gdfYir8nZ8ehwCOg7AKSUinMc-qgVqMJfFNKHFEzljw-UP7zpy3N6xmHP1nMdMyQq4E8zJ-eSz8qJgsirkew2VzWD0BldrFOMGFh909blIcDUoLyP_4vfvIciaQEJ3gQ1RNMAHHuV60z_VaE1xbga0kFXLgZPFLSG6NsADCs0lYezTiRph9jXs2QfVZGga7i87z6bgX9phJCrbYU8yhUc2mLEOQUV0sbO5k-NtQSvs3HIY2vW4bzFZ5uo_ghr6P9q; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 03-Oct-2024 22:50:52 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 05-Oct-2016 22:50:52 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1412635851727738; path=/; expires=Wed, 28-Sep-44 22:50:51 GMT
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D3407622996; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1412635851713704; path=/; expires=Wed, 28-Sep-44 22:50:51 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+[2014-10-06 17:55 CST6CDT] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1197
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=2525.00&protection_eligibility=Ineligible&item_number1=&tax=0.00&item_number2=&payer_id=NJT7MKD83GTA8&item_number3=&payment_date=15%3A54%3A58+Oct+06%2C+2014+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=bmore&mc_fee=73.53&notify_version=3.8&custom=SktULTA4ODI3QSxKS1QtMjMyMjdCLEpLVC04MDMxM0M%3D&payer_status=verified&business=scottymitch88%40gmail.com&num_cart_items=3&mc_handling1=0.00&mc_handling2=0.00&mc_handling3=0.00&verify_sign=Aomp6rgHZGO0y.FdZHNL98DIkCV7AXUPvfbxBV2C.3Hj10gl5ZAkQcY3&payer_email=testingbmorebuying%40gmail.com&mc_shipping1=0.00&mc_shipping2=0.00&mc_shipping3=0.00&tax1=0.00&tax2=0.00&tax3=0.00&txn_id=8A5511402H5759947&payment_type=instant&last_name=buyer&item_name1=Single+Occupancy&receiver_email=scottymitch88%40gmail.com&item_name2=Double+Occupancy&payment_fee=73.53&item_name3=Triple+Occupancy&quantity1=1&quantity2=1&receiver_id=G86XESUQ3TJ7S&quantity3=4&txn_type=cart&mc_gross_1=500.00&mc_currency=USD&mc_gross_2=425.00&mc_gross_3=1600.00&residence_country=US&test_ipn=1&transaction_subject=SktULTA4ODI3QSxKS1QtMjMyMjdCLEpLVC04MDMxM0M%3D&payment_gross=2525.00&ipn_track_id=ac9e7956c804e
+[2014-10-06 17:55 CST6CDT] HTTP response of validation request: HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Date: Mon, 06 Oct 2014 22:55:02 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=8-sIZglNmi8yVw1GB6T3NaG9LrOvx6KiF_jOovvdqj88w2I_DboEaPdGQ2gf6TArV25LPaE7OjWKBKJIGlj38aLTMHwYnM0f9VNlKxvzFEiZYaKkfGUOjnMzv6RO-O8yImmqvUsVhet7LnV3JLSePAzZc0Jy1K4P6mJvuRzLodYFFsDkIYayuJIUiHbHkTb5AL1khHXEuNfyvdspr7Xyb9B_Fr0SecG0utWnDOqHMGXqLZN7d_iZ3oo_520P1Vt6L9ADKyIIVmBnNAGN6rabbaGT83zIbsW-jjq-q2XlasveSGEgFDpI4U5wYauUf-FFstmx5YNGgizajJoTUFR_tTaci9FxE-iPGawMS8adz71UwfFPsei6kNX56Pc9HyClnSfoBlRergC96fynb8d0ej-09_ZN4F6n8YDqEju5KWN66vTgqUBwSxpkUxy; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 03-Oct-2024 22:55:03 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 05-Oct-2016 22:55:03 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1412636103001393; path=/; expires=Wed, 28-Sep-44 22:55:03 GMT
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D3323802452; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1412636102988161; path=/; expires=Wed, 28-Sep-44 22:55:02 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2014-10-06 17:55 CST6CDT] REGISTRATION CODE:JKT-08827A
+[2014-10-06 17:55 CST6CDT] REPLY:HTTP/1.1 200 OK
+Date: Mon, 06 Oct 2014 22:55:02 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=8-sIZglNmi8yVw1GB6T3NaG9LrOvx6KiF_jOovvdqj88w2I_DboEaPdGQ2gf6TArV25LPaE7OjWKBKJIGlj38aLTMHwYnM0f9VNlKxvzFEiZYaKkfGUOjnMzv6RO-O8yImmqvUsVhet7LnV3JLSePAzZc0Jy1K4P6mJvuRzLodYFFsDkIYayuJIUiHbHkTb5AL1khHXEuNfyvdspr7Xyb9B_Fr0SecG0utWnDOqHMGXqLZN7d_iZ3oo_520P1Vt6L9ADKyIIVmBnNAGN6rabbaGT83zIbsW-jjq-q2XlasveSGEgFDpI4U5wYauUf-FFstmx5YNGgizajJoTUFR_tTaci9FxE-iPGawMS8adz71UwfFPsei6kNX56Pc9HyClnSfoBlRergC96fynb8d0ej-09_ZN4F6n8YDqEju5KWN66vTgqUBwSxpkUxy; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 03-Oct-2024 22:55:03 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 05-Oct-2016 22:55:03 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1412636103001393; path=/; expires=Wed, 28-Sep-44 22:55:03 GMT
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D3323802452; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1412636102988161; path=/; expires=Wed, 28-Sep-44 22:55:02 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+[2014-10-06 17:55 CST6CDT] REGISTRATION CODE:JKT-23227B
+[2014-10-06 17:55 CST6CDT] REPLY:HTTP/1.1 200 OK
+Date: Mon, 06 Oct 2014 22:55:02 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=8-sIZglNmi8yVw1GB6T3NaG9LrOvx6KiF_jOovvdqj88w2I_DboEaPdGQ2gf6TArV25LPaE7OjWKBKJIGlj38aLTMHwYnM0f9VNlKxvzFEiZYaKkfGUOjnMzv6RO-O8yImmqvUsVhet7LnV3JLSePAzZc0Jy1K4P6mJvuRzLodYFFsDkIYayuJIUiHbHkTb5AL1khHXEuNfyvdspr7Xyb9B_Fr0SecG0utWnDOqHMGXqLZN7d_iZ3oo_520P1Vt6L9ADKyIIVmBnNAGN6rabbaGT83zIbsW-jjq-q2XlasveSGEgFDpI4U5wYauUf-FFstmx5YNGgizajJoTUFR_tTaci9FxE-iPGawMS8adz71UwfFPsei6kNX56Pc9HyClnSfoBlRergC96fynb8d0ej-09_ZN4F6n8YDqEju5KWN66vTgqUBwSxpkUxy; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 03-Oct-2024 22:55:03 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 05-Oct-2016 22:55:03 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1412636103001393; path=/; expires=Wed, 28-Sep-44 22:55:03 GMT
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D3323802452; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1412636102988161; path=/; expires=Wed, 28-Sep-44 22:55:02 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+[2014-10-06 17:55 CST6CDT] REGISTRATION CODE:JKT-80313C
+[2014-10-06 17:55 CST6CDT] REPLY:HTTP/1.1 200 OK
+Date: Mon, 06 Oct 2014 22:55:02 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=8-sIZglNmi8yVw1GB6T3NaG9LrOvx6KiF_jOovvdqj88w2I_DboEaPdGQ2gf6TArV25LPaE7OjWKBKJIGlj38aLTMHwYnM0f9VNlKxvzFEiZYaKkfGUOjnMzv6RO-O8yImmqvUsVhet7LnV3JLSePAzZc0Jy1K4P6mJvuRzLodYFFsDkIYayuJIUiHbHkTb5AL1khHXEuNfyvdspr7Xyb9B_Fr0SecG0utWnDOqHMGXqLZN7d_iZ3oo_520P1Vt6L9ADKyIIVmBnNAGN6rabbaGT83zIbsW-jjq-q2XlasveSGEgFDpI4U5wYauUf-FFstmx5YNGgizajJoTUFR_tTaci9FxE-iPGawMS8adz71UwfFPsei6kNX56Pc9HyClnSfoBlRergC96fynb8d0ej-09_ZN4F6n8YDqEju5KWN66vTgqUBwSxpkUxy; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 03-Oct-2024 22:55:03 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 05-Oct-2016 22:55:03 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1412636103001393; path=/; expires=Wed, 28-Sep-44 22:55:03 GMT
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D3323802452; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1412636102988161; path=/; expires=Wed, 28-Sep-44 22:55:02 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+
+[2014-10-06 18:01 CST6CDT] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1070
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=869.00&protection_eligibility=Ineligible&item_number1=&tax=0.00&item_number2=&payer_id=NJT7MKD83GTA8&payment_date=16%3A01%3A45+Oct+06%2C+2014+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=bmore&mc_fee=25.50&notify_version=3.8&custom=TU5HLTE4MjY0TCxNTkctOTA2MTZO&payer_status=verified&business=scottymitch88%40gmail.com&num_cart_items=2&mc_handling1=0.00&mc_handling2=0.00&verify_sign=An5ns1Kso7MWUdW4ErQKJJJ4qi4-A8IN0vTLJvy9UQDdlHFctzsiR1Bd&payer_email=testingbmorebuying%40gmail.com&mc_shipping1=0.00&mc_shipping2=0.00&tax1=0.00&tax2=0.00&txn_id=39866909EP666880S&payment_type=instant&last_name=buyer&item_name1=Quad+Occupancy+NO+Airfare&receiver_email=scottymitch88%40gmail.com&item_name2=Tailgate+Only+%28+Early+Bird+Price+%29&payment_fee=25.50&quantity1=1&quantity2=6&receiver_id=G86XESUQ3TJ7S&txn_type=cart&mc_gross_1=599.00&mc_currency=USD&mc_gross_2=270.00&residence_country=US&test_ipn=1&transaction_subject=TU5HLTE4MjY0TCxNTkctOTA2MTZO&payment_gross=869.00&ipn_track_id=18d4d3c87988
+[2014-10-06 18:01 CST6CDT] HTTP response of validation request: HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Date: Mon, 06 Oct 2014 23:01:50 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=AoXKtaPUEnW1KGg1HRVcfUWk_1G-e7mwEYEzoLLpQnfUAxrffcA_FezkMpogqA0mutM5-qTQCXN3eVnsdntrx1KBl0BpVM2Tao-HbiXeZiohZFnlgcGBQst42JMhz5R_GnqAnBJE819ylMrXQmD0elZPieURXQ_Cl8QNOb1hNN_Vqm2fvvBOdEjHzuWunv1zUmJaV1D79G3aRbd-SRyECily9E91EIdzA_L-m1o5gL0Qr0H3bbL3-YibD86FgWQKlEcmGvblyDTKOuKBRRvzq_eYA_hbs6bsw0xDfK-NZzY45ouHzWVwBSYR2ah6uwaPQhj_GJwBDpVBJokBOfntkGPc6URMWsaX946Fy8RFQAl3QUU79bpA_4qmMQ1Km6IdD6rdBWoH22sgTXf2RpVnNlnVdfUc3msPzWDRz0W8-mpnkns-AEtGBzApslm; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 03-Oct-2024 23:01:50 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 05-Oct-2016 23:01:50 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1412636510208242; path=/; expires=Wed, 28-Sep-44 23:01:50 GMT
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D1579103060; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1412636510193366; path=/; expires=Wed, 28-Sep-44 23:01:50 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2014-10-06 18:01 CST6CDT] REGISTRATION CODE:MNG-18264L
+[2014-10-06 18:01 CST6CDT] REGISTRATION CODE:MNG-90616N
+[2014-10-06 18:11 CST6CDT] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1071
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=869.00&protection_eligibility=Ineligible&item_number1=&tax=0.00&item_number2=&payer_id=NJT7MKD83GTA8&payment_date=16%3A11%3A14+Oct+06%2C+2014+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=bmore&mc_fee=25.50&notify_version=3.8&custom=TU5HLTQzMDg3TCxNTkctOTE4MDRO&payer_status=verified&business=scottymitch88%40gmail.com&num_cart_items=2&mc_handling1=0.00&mc_handling2=0.00&verify_sign=AmsvZXN...23huzpRBrL.2qIGZPAA8wppm5JebmbkXiSc9hXBf7JzwAs&payer_email=testingbmorebuying%40gmail.com&mc_shipping1=0.00&mc_shipping2=0.00&tax1=0.00&tax2=0.00&txn_id=3DC36840EL7379111&payment_type=instant&last_name=buyer&item_name1=Quad+Occupancy+NO+Airfare&receiver_email=scottymitch88%40gmail.com&item_name2=Tailgate+Only+%28+Early+Bird+Price+%29&payment_fee=25.50&quantity1=1&quantity2=6&receiver_id=G86XESUQ3TJ7S&txn_type=cart&mc_gross_1=599.00&mc_currency=USD&mc_gross_2=270.00&residence_country=US&test_ipn=1&transaction_subject=TU5HLTQzMDg3TCxNTkctOTE4MDRO&payment_gross=869.00&ipn_track_id=ffdb4f09b0438
+[2014-10-06 18:11 CST6CDT] HTTP response of validation request: HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Date: Mon, 06 Oct 2014 23:11:18 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=9e5m3uq0qweii3wQe0357Y9ZoLcXN4H53JpRA6tJ6_v8T8KqtxDGAjIo7xTcrOa0ioNKVNjUpcvnltdfzVuyua6fvO7WnSl7n1_hIzl52C7gn7E19_VRuUN2wWCJ9VhJTSR7k9tSL9HZjByK1zuNAcoCciViXO9jyT1P07bMRZUY2VYQ0YzwLseqoXcY3poYsuXC4Hh7OIqk2UaOSNg7nJvX8E8H4SKoAXxhfjcYIV_0baahj9a9tQ3swOHMOZ88xkjIoz7AhJUI5I6ZPAwLnjgMLksWiFhgo0UMbal2dvMYFw3mWTCm0cdvcgGa3PSiFCFv9l9jdFCGFdhZLMef5SJZ_Su9f-BE7xwx8YEkFGCdWrxQOGi_AKZXVqZ1UaafOdaY0nCoOODSmT32_fGZkRU04piW-Hw-3JwEr3Med2vRfqpvSU4dVHOqY0S; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 03-Oct-2024 23:11:18 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 05-Oct-2016 23:11:18 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1412637078709514; path=/; expires=Wed, 28-Sep-44 23:11:18 GMT
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D2518758228; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1412637078698021; path=/; expires=Wed, 28-Sep-44 23:11:18 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2014-10-06 18:11 CST6CDT] REGISTRATION CODE:MNG-43087L
+[2014-10-06 18:11 CST6CDT] REPLY WAS VERIFIED --------------------------------------------------
+[2014-10-06 18:11 CST6CDT] PAYMENT STATUS:Completed
+[2014-10-06 18:11 CST6CDT] SENDING CONFIRMATION EMAIL ON COMPLETED PAYMENT STATUS:Completed
+[2014-10-06 18:11 CST6CDT] UPDATED DATABASE:10749
+[2014-10-06 18:11 CST6CDT] REGISTRATION CODE:MNG-91804N
+[2014-10-06 18:11 CST6CDT] REPLY WAS VERIFIED --------------------------------------------------
+[2014-10-06 18:11 CST6CDT] UnexpectedValueException EXCEPTION:confirmationNumber
+[2014-10-06 18:14 CST6CDT] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 1071
+Content-Type: application/x-www-form-urlencoded
+Expect: 100-continue
+
+ for IPN payload: cmd=_notify-validate&mc_gross=869.00&protection_eligibility=Ineligible&item_number1=&tax=0.00&item_number2=&payer_id=NJT7MKD83GTA8&payment_date=16%3A14%3A04+Oct+06%2C+2014+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=bmore&mc_fee=25.50&notify_version=3.8&custom=TU5HLTYxNjcxTCxNTkctNzIyMTJO&payer_status=verified&business=scottymitch88%40gmail.com&num_cart_items=2&mc_handling1=0.00&mc_handling2=0.00&verify_sign=AV5A3aDpmDPAUgQX.6OcwUipUN.RAgczMxImaDBHmvrqHp-22ZQjqRuo&payer_email=testingbmorebuying%40gmail.com&mc_shipping1=0.00&mc_shipping2=0.00&tax1=0.00&tax2=0.00&txn_id=31P49651G7488384X&payment_type=instant&last_name=buyer&item_name1=Quad+Occupancy+NO+Airfare&receiver_email=scottymitch88%40gmail.com&item_name2=Tailgate+Only+%28+Early+Bird+Price+%29&payment_fee=25.50&quantity1=1&quantity2=6&receiver_id=G86XESUQ3TJ7S&txn_type=cart&mc_gross_1=599.00&mc_currency=USD&mc_gross_2=270.00&residence_country=US&test_ipn=1&transaction_subject=TU5HLTYxNjcxTCxNTkctNzIyMTJO&payment_gross=869.00&ipn_track_id=5408ce6064264
+[2014-10-06 18:14 CST6CDT] HTTP response of validation request: HTTP/1.1 100 Continue
+
+HTTP/1.1 200 OK
+Date: Mon, 06 Oct 2014 23:14:09 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=xHjeninTCANxc0WbmbFH32Ya6_4TLGPP-7V4o5lXJ5WCP1DVdbuT1Tn8HsA9zvaOj4szGbS_rVA-Gbn9siyIelHisOdRSZlYYSJ16ljpY4UHVuw9cdhuxwhJ0Yd_QBoE67MZegP08Susp-oDOyeKpcHJeCZAb1i2JSwz7__yGpj4Gd8DisKmQceZsQKssMkwqnPi56BAAdB54ivbPn-IXuk7YMrJ-8npHTcuaM9j530t0Qi45QgQAgKpJ-YvVaYM8_O48NI8jXBmL9YmeRYsgMLr50ztAHOC928m8svCA_VfWlqnIM-WbenLh5c-_U11RFK3M_ZnznDueDhC5-ALuNB4c4YaJikkTzYPBSp3GZIXQCk-dzMp0AmLX9ODXNJYzat1sYCbUI5K0J0E_nKY-n82vVk_aXd-RtItWpvw8J3gOq87_2eX9w2lo1y; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 03-Oct-2024 23:14:09 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 05-Oct-2016 23:14:09 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1412637249042799; path=/; expires=Wed, 28-Sep-44 23:14:09 GMT
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D1092760404; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1412637249029027; path=/; expires=Wed, 28-Sep-44 23:14:09 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2014-10-06 18:14 CST6CDT] REGISTRATION CODE:MNG-61671L
+[2014-10-06 18:14 CST6CDT] REPLY WAS VERIFIED --------------------------------------------------
+[2014-10-06 18:14 CST6CDT] PAYMENT STATUS:Completed
+[2014-10-06 18:14 CST6CDT] SENDING CONFIRMATION EMAIL ON COMPLETED PAYMENT STATUS:Completed
+[2014-10-06 18:14 CST6CDT] UPDATED DATABASE:10751
+[2014-10-06 18:14 CST6CDT] REGISTRATION CODE:MNG-72212N
+[2014-10-06 18:14 CST6CDT] REPLY WAS VERIFIED --------------------------------------------------
+[2014-10-06 18:14 CST6CDT] PAYMENT STATUS:Completed
+[2014-10-06 18:14 CST6CDT] SENDING CONFIRMATION EMAIL ON COMPLETED PAYMENT STATUS:Completed
+[2014-10-06 18:14 CST6CDT] UPDATED DATABASE:10752
+[2014-10-06 18:21 CST6CDT] HTTP request of validation request:POST /cgi-bin/webscr HTTP/1.1
+Host: www.sandbox.paypal.com
+Accept: */*
+Connection: Close
+Content-Length: 930
+Content-Type: application/x-www-form-urlencoded
+
+ for IPN payload: cmd=_notify-validate&mc_gross=700.00&protection_eligibility=Ineligible&item_number1=&payer_id=NJT7MKD83GTA8&tax=0.00&payment_date=16%3A21%3A44+Oct+06%2C+2014+PDT&payment_status=Completed&charset=windows-1252&mc_shipping=0.00&mc_handling=0.00&first_name=bmore&mc_fee=20.60&notify_version=3.8&custom=RkFSLTU1OTA0Qw%3D%3D&payer_status=verified&business=scottymitch88%40gmail.com&num_cart_items=1&mc_handling1=0.00&verify_sign=ACWJvtx8ZXbJ88NSrlw9sYaHz1U.A-L1Re1U0aOUeS.F.xDJFM7z-iiV&payer_email=testingbmorebuying%40gmail.com&mc_shipping1=0.00&tax1=0.00&txn_id=1SB98056EJ574022P&payment_type=instant&last_name=buyer&item_name1=Falcons+at+Ravens%2C+Ticket+and+Tailgate&receiver_email=scottymitch88%40gmail.com&payment_fee=20.60&quantity1=5&receiver_id=G86XESUQ3TJ7S&txn_type=cart&mc_gross_1=700.00&mc_currency=USD&residence_country=US&test_ipn=1&transaction_subject=RkFSLTU1OTA0Qw%3D%3D&payment_gross=700.00&ipn_track_id=f25f8f6d38174
+[2014-10-06 18:21 CST6CDT] HTTP response of validation request: HTTP/1.1 200 OK
+Date: Mon, 06 Oct 2014 23:21:48 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: c9MWDuvPtT9GIMyPc3jwol1VSlO=zuh3-VpidWVzTrvz1czmdDgYv3bL-QvwNSpUpvckp6hD4PyI1fJPu1icY8QUUNoxuiut1CmQtujgGBHxzf7CsJe01LZVWBxTR_O2mcxbo7XfWYDRH7XvsuiCqur9aqtmzU7P0F-Xdlg9HKAPuLzr4oeeQXo4SCptuK8rSXtv05Msh8f-SoUOO4gzOcrXKkOrMmsFRQkRLP4X5PDlnfCST4a9xn5ElS7Ln9TCsYgoa4Ou2KKjCKQdPdb5XcxxnWtiX9z9dmk9Ru44BD6UbRamINNAzPAHflepCS42AijSYw7q8zSIcxD-n_Frt87N938yoRtx0DyWsEVsGyCpPLpHsd0UDa4PW9druWa878DCm-0Fz0zItxJTzR9_7_NZP5HR0s-s4ccZJp6dqrZYyN66CPuehwG455T_iyeRL5SBdvM3VR6bZwuUYMRR_Z8; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 03-Oct-2024 23:21:49 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 05-Oct-2016 23:21:49 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.72.108.11.1412637708974904; path=/; expires=Wed, 28-Sep-44 23:21:48 GMT
+Connection: close
+Set-Cookie: X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D203699028; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.72.128.11.1412637708960744; path=/; expires=Wed, 28-Sep-44 23:21:48 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=14400
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+VERIFIED
+[2014-10-06 18:21 CST6CDT] REGISTRATION CODE:FAR-55904C
+[2014-10-06 18:21 CST6CDT] REPLY WAS VERIFIED --------------------------------------------------
+[2014-10-06 18:21 CST6CDT] PAYMENT STATUS:Completed
+[2014-10-06 18:21 CST6CDT] SENDING CONFIRMATION EMAIL ON COMPLETED PAYMENT STATUS:Completed
+[2014-10-06 18:21 CST6CDT] UPDATED DATABASE:10753

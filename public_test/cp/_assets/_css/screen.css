@@ -1,0 +1,78 @@
+
+
+
+/*--- Basic Tags ---*/
+
+
+/*--- Header ---*/
+
+header .brand {
+	float: right !important;
+}
+
+.page-header {
+	margin: 30px 0 20px 0;
+}
+
+/*--- Content ---*/
+
+section#content {
+	min-height: 50em;
+	padding: 50px 20px;
+}
+
+
+
+/*--- Layout ---*/
+
+
+
+/*--- Misc Display Styles ---*/
+
+
+
+.scroll15 {
+	max-height: 15em;
+	overflow: auto;
+}
+
+.scroll30 {
+	max-height: 30em;
+	overflow: auto;
+}
+
+
+
+.no-bullets li {
+	list-style-type: none;
+}
+
+
+
+/*--- Icon Legend ---*/
+
+
+
+/*--- Images ---*/
+
+
+
+/*--- Tables ---*/
+
+
+
+/*--- Lists ---*/
+
+
+
+/*--- Forms ---*/
+
+
+
+/*--- Form Results ---*/
+
+
+/*--- Quick Links ---*/
+
+
+/*--- Errors ---*/

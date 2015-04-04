@@ -1,0 +1,28 @@
+BMORE Around Town
+
+Thank You for Joining Us
+		
+Thank you for purchasing #{packageName} for the #{eventName}. If you have any
+questions please feel free to contact us at info@bmorearoundtown.com. Please
+remember to print out your ticket and bring it with you on the day of the event.
+		
+		
+Ticket Number:			#{registrationCode}
+Name:				#{name}
+Event:				#{eventName}
+Package:			#{packageName}
+Upgrades:			#{upgrades}
+			
+Payment Method:			PayPal
+Amount Paid:			$#{amountPaid}
+Confirmation Number:		#{transactionId}
+			
+		
+Click the link below to view and print your ticket:
+http://www.bmorearoundtown.com/events/ticketing.php?t=#{ticketId}
+
+
+--------------------------------------------------------------------------------
+
+
+DISCLOSURE by completing a purchase for an event hosted by BMORE Around Town, the purchaser and the purchaser's guests agree to the following: BMORE Around Town is in no way liable for attendees actions while participating in these events. All individual attendees will be responsible for their own actions and are subject to any legal/financial obligations that may be brought due to their damages. All purchases are final. No Refunds/Exchanges due to the time sensitivity of events. BMORE Around Town does not promote under age drinking, drinking and driving, nor binge drinking in anyway. Persons found in violation of this will be immediately removed from any events and possibly banned from future events. BMORE Around Town strongly encourages everyone to have a great time at their events while allowing participants to socialize and meet new people.Please remember to Drink Responsibly.

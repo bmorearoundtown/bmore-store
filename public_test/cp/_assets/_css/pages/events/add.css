@@ -1,0 +1,25 @@
+ul#packages li {
+	list-style-type: none;
+}
+
+ul#packages li dl {
+	padding: 1em 0;
+}
+
+ul#packages li:first-of-type a.uiButton {
+	display: none;
+}
+
+
+
+table#registrationFieldsGrid tr#rownewField td.fieldTypeLabel {
+	vertical-align: middle;
+}
+
+table#registrationFieldsGrid tr#rownewField td {
+	background-color: #feffe1;
+}
+
+tr#rownewField td.toolsLabel {
+	vertical-align: bottom;
+}

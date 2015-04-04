@@ -1,0 +1,61 @@
+
+/**
+*	
+*	Upcoming events
+*
+**/
+
+ul#upcoming-events {
+	font-size: 0.9em;
+	margin-top: 20px;
+	padding-left: 10px;
+}
+
+ul#upcoming-events li {
+	border-bottom: 1px #999 solid;
+	line-height: 1.4em;
+	list-style-type: none;
+	padding: 10px 5px;
+}
+
+ul#upcoming-events li:first-of-type {
+	padding-top: 0;
+}
+
+ul#upcoming-events li:last-of-type {
+	border-bottom: none;
+}
+
+ul#upcoming-events a.event-name {
+	color: #999;
+	font-size: 1.25em;
+}
+
+ul#upcoming-events dt {
+	line-height: 1.1em;
+	width: 100%;
+}
+
+ul#upcoming-events dd {
+	line-height: 1.1em;
+	margin-left: 2em;
+}
+
+/**
+*	
+*	Registration grid
+*
+**/
+.eventNameLabel {
+	width: 20em;
+}
+
+.numTicketsLabel {
+	text-align: center;
+	width: 6em;
+}
+
+.toolsLabel {
+	text-align: center;
+}
+

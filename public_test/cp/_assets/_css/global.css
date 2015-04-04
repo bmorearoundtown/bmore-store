@@ -1,0 +1,65 @@
+/**
+*
+*	global
+*
+**/
+body {
+	background: url("../_images/crossword.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+table { background-color: #f9f9f9; }
+
+a {
+	color: #29abe0;
+}
+
+.input-sm, .form-horizontal .form-group-sm .form-control {
+	padding: 0 10px;
+}
+
+form button[type="submit"] {
+	font-size: 1.25em;
+}
+
+.list-group-item {
+    background-color: #f8f5f0;
+    border: 1px solid #dfd7ca !important;
+    padding: 9px 12px;
+}
+
+.max-height-15 { max-height: 15em; overflow: auto; }
+.max-height-30 { max-height: 30em; overflow: auto; }
+.max-height-45 { max-height: 45em; overflow: auto; }
+.cushion-right { margin-right: 10px; }
+.cushion-left { margin-left: 10px; }
+.cushion-top { margin-top: 10px; }
+.cushion-bottom { margin-bottom: 10px; }
+.collapse-box { margin-top: 0; }
+.well { background-color: #f9f9f9; }
+
+#registration-info-modal .row {
+	margin-bottom: 5px;
+}
+
+/**
+*
+*	quicklinks
+*
+**/
+
+ul.quick-links {
+	float: right;
+}
+
+.quick-links li {
+	display: inline-block;
+	margin-right: 7px;
+}
+
+.quick-links li a.muted {
+	color: #999;
+}
+
+.quick-links li a i.fa{
+	margin-right: 5px;
+}

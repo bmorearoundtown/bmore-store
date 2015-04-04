@@ -1,0 +1,32 @@
+.well.description {
+	max-height: 400px;
+	overflow: auto;
+}
+
+.event-details-list .row {
+	margin-bottom: 5px;
+}
+
+.event-registration-list .row{
+	margin-bottom: 5px;
+}
+
+.event-location-list .row{
+	margin-bottom: 5px;
+}
+
+.event-package-list .row{
+	margin-bottom: 5px;
+}
+
+#completeRegistrationsGrid.table > tbody > tr > td.nameLabel { min-width: 200px; }
+#completeRegistrationsGrid.table > tbody > tr > td.packageNameLabel { min-width: 200px; }
+#completeRegistrationsGrid.table > tbody > tr > td.numTicketsLabel { min-width: 80px; text-align: center; }
+#completeRegistrationsGrid.table > tbody > tr > td.amountPaidLabel { min-width: 80px; text-align: center; }
+
+#registrationInformation .panel-footer { padding: 0; font-size: 1.5em; }
+#registrationInformation .registration-printing { padding: 5px 15px }
+
+
+
+

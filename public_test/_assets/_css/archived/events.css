@@ -1,0 +1,447 @@
+/*--- Display Styles ---*/
+
+.nobottomborder {
+	border-bottom: 0 !important;
+}
+
+
+
+/*--- Layout ---*/
+
+div.third {
+	float: left;
+	margin-right: 2.5%;
+	width: 25%
+}
+
+div.third-x2 {
+	float: left;
+	margin-right: 2.5%;
+	width: 62.5%
+}
+
+div.half {
+	float: left;
+	margin-right: 2%;
+	width: 48%;
+}
+
+
+
+/*--- Errors ---*/
+
+div.error div {font-size:.8em;font-weight:bold;color:#cc0000;padding:0 10px 10px;margin:0;}
+
+div.errorAlert {
+	background: #1f0100;
+	border: 3px #cc0000 solid;
+	color: #fff;
+	margin: 15px 0;
+	padding: 10px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+div.errorAlert li {
+	list-style-type: disc;
+	margin-left: 2em;
+}
+
+
+
+/*--- Icons ---*/
+
+.icon-accept {
+	background-position: left center;
+	background-repeat: no-repeat;
+	line-height: 16px;
+	padding-left: 18px;
+}
+
+.icon-accept {
+	background-image: url(/_assets/_images/icons/accept.png);
+}
+
+
+
+/*--- Lists ---*/
+
+dl dt {
+	clear: left;
+	float: left;
+	line-height: 2em;
+	margin-bottom: 0.5em;
+	text-align: right;
+	width: 12em;
+}
+
+dl dd {
+	clear: right;
+	line-height: 2em;
+	margin: 0 0 0.5em 13em;
+}
+
+dl.flat dt {
+	clear: both;
+	float: none;
+	line-height: 1.4em;
+	margin-bottom: 0.5em;
+	width: auto;
+}
+
+dl.flat dd {
+	clear: both;
+	line-height: 1.4em;
+	margin: 0 0 2em 0;
+}
+
+dt h3 {float:left;color:#fff;}
+#event-details .third {background-color:#333;padding:20px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;color:#a8a8a8;font-size:.9em;}
+
+p#location-description {
+	font-size: 0.8em;
+}
+
+/*--- Tables ---*/
+
+table.gridDataTable {
+	background-color: #fff;
+	border-collapse: collapse;
+	color: #000;
+	width: 100%;
+}
+
+table.gridDataTable td {
+	border-bottom: 1px #ccc solid;
+	padding: 10px;
+	background: -moz-linear-gradient(
+		top,
+		#fff 0%,
+		#dedede);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#fff),
+		to(#dedede));
+}
+
+table.gridDataTable tr:hover td  {background: -moz-linear-gradient(
+		top,
+		#fff 0%,
+		#bebebe);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#fff),
+		to(#bebebe));}
+
+table.gridDataTable th {
+	background-color: #333;
+	color: #a8a8a8;
+	padding: 5px 10px;
+	text-align: left;
+	font-weight:normal;
+	font-size:.8em;
+}
+
+input[type=checkbox],
+input[type=radio] {
+	filter: none;
+	opacity: 1.0;
+	width: auto;
+}
+
+td.priceLabel,
+th.priceLabel {
+	text-align: center !important;
+	vertical-align: middle;
+	width: 125px;
+}
+
+td.quantityLabel {
+	vertical-align: middle;
+}
+
+td.quantityLabel select {
+	font-size: 1.2em;
+	width: 4em;
+}
+
+td.priceLabel span.package-price {
+	color: #333;
+	display: block;
+	font-family: 'Ubuntu', arial, serif;
+	font-size: 1.6em;
+	font-weight: normal;
+	letter-spacing:-1px;
+	margin-bottom: 0.2em;
+}
+
+td.priceLabel span.per-person {
+	display: block;
+	font-family: 'Ubuntu', arial, serif;
+	font-size: 0.8em;
+	margin-bottom: 0.5em;
+	text-transform: uppercase;
+}
+
+
+
+/*--- Event Registration ---*/
+
+div#total-price-div {
+	color: #fff;
+	font-size: 1.1em;
+	font-weight: normal;
+	margin-top: 2em;
+	text-align: right;
+}
+
+div#total-price-div span#total-price {
+	font-family: 'Ubuntu', arial, serif;
+	font-size: 1.8em;
+	font-weight: bold;
+	letter-spacing:-1px;
+}
+
+
+
+div#discount-code-div > div {
+	font-size: 0.9em;
+	padding-top: 2em;
+}
+
+div#discount-code-div a {
+	color: #fff;
+	margin-left: 5px;
+}
+
+div#discount-code-div a:hover {
+	text-decoration: underline;
+}
+
+div#applied-discount-code {
+	padding-top: 2.8em !important;
+}
+
+input#discountCode {
+	font-size: 0.9em;
+}
+
+
+
+/*--- Event Details ---*/
+
+div#event-details span.event-name {
+	display: block;
+	font-size: 1.5em;
+	font-family: 'Ubuntu', arial, serif;
+	font-weight:normal;
+	margin-bottom: 0.5em;
+	color:#276FED;
+}
+
+p.event-details {font-size:.9em;}
+
+td.checkboxLabel {
+	text-align: center;
+	width: 40px !important;
+}
+
+span.package-name {
+	font-weight: bold;
+	color:#276FED;
+	font-family: 'Ubuntu', arial, serif;letter-spacing:-1px;
+	font-size: 1.2em;
+}
+
+td.nameLabel div {
+	color: #666;
+	font-size: 0.9em;
+}
+
+span.package-deadline {
+	color: #333;
+	font-size: .8em;
+}
+
+img.location-map {
+	border: 1px #fff solid;
+	-webkit-box-shadow: 1px 1px 0 2px rgba(0,0,0,0.24);
+	-moz-box-shadow: 1px 1px 0 2px rgba(0,0,0,0.24);
+	box-shadow: 1px 1px 0 2px rgba(0,0,0,0.24);
+	margin-top: 1em;
+}
+
+strong.deadline-alert {
+	color: #c00;
+}
+
+img#event-logo {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+span.sold-out {
+	color: #c00;
+	font-weight: bold;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+span.not-on-sale {
+	color: #999;
+	font-weight: bold;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+
+
+/*--- Main Index Page ---*/
+
+ul#events {clear:right;}
+
+ul#events li {
+	border-bottom: 1px #333 dashed;
+	padding: 20px 10px;
+}
+
+ul#events li:hover {background-color:#111;}
+
+ul#events li:first-of-type {
+	padding-top: none;
+}
+
+ul#events li:last-of-type {
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+
+ul#events div.event-date {
+	background-color: #fff;
+	border: 5px #fff solid;
+	float: left;
+	width: 70px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: -moz-linear-gradient(
+		top,
+		#fff 0%,
+		#dedede);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#fff),
+		to(#dedede));
+}
+
+ul#events div.event-month {
+	background: -moz-linear-gradient(
+		top,
+		#276fed 0%,
+		#0b3681);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#276fed),
+		to(#0b3681));
+	color: #fff;
+	font-weight: bold;
+	padding: 4px 0;
+	text-align: center;
+	text-transform: uppercase;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	text-shadow:#039 1px 1px 2px;
+}
+
+ul#events div.event-day {
+	color: #333;
+	font-size: 3em;
+	font-weight: bold;
+	padding: 20px 0 15px 0;
+	text-align: center;
+}
+
+ul#events div.event-details {
+	margin: 0 130px 10px 100px;
+}
+
+ul#events div.event-details p {
+	padding-bottom:10px;
+	font-size:.9em;
+}
+
+ul#events div.event-details big {
+	display: block;
+	font-size: 1.5em;
+	line-height:1em;
+}
+
+ul#events div.event-details big a {
+	color: #276FED;
+	font-family: 'Ubuntu', arial, serif;
+	font-weight:lighter;
+}
+
+ul#events div.event-details small {
+	color: #ccc;
+	display: block;
+	font-size: 0.9em !important;
+	line-height: 2em;
+	margin-bottom: 0.5em;
+}
+
+ul#events div.event-details .viewmore {
+
+}
+
+ul#events a.event-category {
+	color: #568ef1;
+	font-weight: bold;
+	font-size:.7em;
+	text-transform: uppercase;
+}
+
+ul#events div.event-price a {
+	color: #fff;
+	letter-spacing:-1px;
+	font-family: 'Ubuntu', arial, serif;
+}
+
+ul#events div.event-details big a:hover,
+ul#events div.event-price a:hover {
+	text-decoration: underline;
+}
+
+ul#events a.event-more-info {
+
+}
+
+ul#events div.event-price {
+	float: right;
+	font-size: 2.3em;
+	font-weight: normal;
+	text-align: center;
+}
+
+ul#events div.event-price small {
+	color: #999;
+	display: block;
+	font-size: 0.3em;
+	padding-bottom: 0.5em;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+div#categorize {margin-bottom:20px;font-size:.8em;font-weight:bold;}
+div#categorize a {padding:0 5px;font-weight:normal;}
+
+
+
+ul.locations li {
+	margin-bottom: 1em;
+}
