@@ -7,8 +7,16 @@ var concat = require('gulp-concat');
 var notify = require('gulp-notify');
 var rename = require('gulp-rename');
 var watch = require('gulp-watch');
+var imagemin = require('gulp-imagemin');
+var pngcrush = require('imagemin-pngcrush');
+var del = require('del');
 
 var DEST = 'target/';
+
+// Clean up
+gulp.task('clean', function(cb) {
+  del(['target/'], cb)
+});
 
 // CSS Minification and concatenation
 gulp.task('css', function(){
@@ -18,6 +26,25 @@ gulp.task('css', function(){
   .pipe(concat("bmorearoundtown.min.css"))
   .pipe(gulp.dest(DEST))
   .pipe(notify({message: "CSS pipe finished and placed in " + DEST}));
+
+});
+
+// Image Compression
+// TODO: Debug child process errors
+gulp.task('images', function() {
+
+  var formats = ['./assets/images/**/*.png', './assets/images/**/*.jpg', './assets/images/**/*.svg'];
+  var options = {
+    progressive: true,
+    svgoPlugins: [{removeViewBox: false}],
+    use: [pngcrush()],
+    optimizationLevel: 7
+  };
+
+  gulp.src( formats )
+  .pipe(imagemin( options ))
+  .pipe(gulp.dest(DEST + '/images/'))
+  .pipe(notify({message: 'Images pipe finished and placed in ' + DEST + '/images/'}));
 
 });
 
@@ -37,4 +64,8 @@ gulp.task('js', function() {
 
 });
 
-gulp.task('default', ['css', 'js']);
+gulp.task('default', ['clean'], function() {
+
+  gulp.start('css', 'js');
+
+});
