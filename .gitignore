@@ -1,4 +1,4 @@
 build
-public_test/_assets/_js/archived/*
+assets/js/prod
+assets/js/archived
 node_modules
-/cgi-bin/*

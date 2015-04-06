@@ -7,7 +7,7 @@ var watch = require('gulp-watch');
 var concat = require('gulp-concat');
 var notify = require('gulp-notify');
 
-var DEST = 'build/';
+var DEST = 'target/';
 
 gulp.task('js', function() {
 
@@ -18,8 +18,8 @@ gulp.task('js', function() {
 
   gulp.src('./assets/js/vendor/**/*.js')
   .pipe(uglify())
-  .pipe(concat("vendor.js"))
-  .pipe(gulp.dest('./assets/js'))
+  .pipe(concat("vendor.min.js"))
+  .pipe(gulp.dest(DEST))
   .pipe( notify({ message: "Javascript pipe finished."}) );
 
 });
