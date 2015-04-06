@@ -3,15 +3,28 @@
 var gulp = require('gulp');
 var rename = require('gulp-rename');
 var uglify = require('gulp-uglify');
+var minifycss = require('gulp-minify-css');
 var watch = require('gulp-watch');
 var concat = require('gulp-concat');
 var notify = require('gulp-notify');
 
 var DEST = 'target/';
 
+// CSS Minification and concatenation
+gulp.task('css', function(){
+
+  gulp.src('./assets/css/*.css')
+  .pipe(minifycss())
+  .pipe(concat("bmorearoundtown.min.css"))
+  .pipe(gulp.dest(DEST))
+  .pipe(notify({message: "CSS pipe finished and placed in " + DEST}));
+
+});
+
+// JS Uglification and concatenation of vendor files
 gulp.task('js', function() {
 
-  gulp.src('./assets/js/app.js')
+  gulp.src('./assets/js/bmorearoundtown.js')
   .pipe(uglify())
   .pipe(rename({ extname: '.min.js' }))
   .pipe(gulp.dest(DEST));
@@ -20,9 +33,8 @@ gulp.task('js', function() {
   .pipe(uglify())
   .pipe(concat("vendor.min.js"))
   .pipe(gulp.dest(DEST))
-  .pipe( notify({ message: "Javascript pipe finished."}) );
+  .pipe(notify({message: "Javascript pipe finished and placed in " + DEST}));
 
 });
 
-
-gulp.task('default', ['js']);
+gulp.task('default', ['css', 'js']);
