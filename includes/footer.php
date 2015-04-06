@@ -65,18 +65,18 @@
 
  </footer>
 
-<?php if( $isProduction || $isTest ){ ?>
+          <?php if( $isProduction || $isTest ){ ?>
 
-  <script src="/target/vendor.min.js?v=1.0.1"></script>
-  <script src="/target/bmorearoundtown.min.js?v=1.0.1"></script>
+  <script src="/target/vendor.min.js?v=1"></script>
+  <script src="/target/bmorearoundtown.min.js?v=1"></script>
 
 <?php } else { ?>
 
-	<script src="/assets/js/vendor/jquery/jquery.min.js"></script>
-	<script src="/assets/js/vendor/bootstrap/bootstrap.min.js"></script>
-	<script src="/assets/js/vendor/nicescroll/jquery.nicescroll.js"></script>
-	<script src="/assets/js/vendor/owl/owl.carousel.js"></script>
-	<script src="/assets/js/vendor/webfonts/webfonts.js"></script>
+  <script src="/assets/js/vendor/_0_webfonts/webfonts.js"></script>
+	<script src="/assets/js/vendor/_1_jquery/jquery.min.js"></script>
+	<script src="/assets/js/vendor/_2_bootstrap/bootstrap.min.js"></script>
+	<script src="/assets/js/vendor/_3_nicescroll/jquery.nicescroll.js"></script>
+	<script src="/assets/js/vendor/_4_owl/owl.carousel.js"></script>
 	<script src="/assets/js/bmorearoundtown.js"></script>
 
 <?php } ?>

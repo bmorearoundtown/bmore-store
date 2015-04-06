@@ -12,7 +12,7 @@ var pngcrush = require('imagemin-pngcrush');
 var del = require('del');
 var DEST = 'target/';
 
-var version = "?v=1.0.1"
+var version = "?v=1"
 
 // Clean up
 gulp.task('clean', function(cb) {

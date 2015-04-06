@@ -14,14 +14,14 @@
 
 	<?php if( $isProduction || $isTest ){ ?>
 
-		<link rel="stylesheet" href="/target/bmorearoundtown.min.css?v=1.0.1" />
+		<link rel="stylesheet" href="/target/bmorearoundtown.min.css?v=1" />
 
 	<?php } else { ?>
 
-		<link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="/assets/css/font-awesome.css" />
-		<link rel="stylesheet" href="/assets/css/bmorearoundtown.css" />
-		<link rel="stylesheet" href="/assets/css/owl.carousel.css" />
+		<link rel="stylesheet" href="/assets/css/_1_bootstrap.min.css" />
+		<link rel="stylesheet" href="/assets/css/_2_font-awesome.css" />
+    <link rel="stylesheet" href="/assets/css/_3_owl.carousel.css" />
+		<link rel="stylesheet" href="/assets/css/_4_bmorearoundtown.css" />
 
 	<?php } ?>
 
