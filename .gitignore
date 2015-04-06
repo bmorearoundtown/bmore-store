@@ -1,4 +1,4 @@
-build
+target
 assets/js/prod
 assets/js/archived
 node_modules
