@@ -10,8 +10,9 @@ var watch = require('gulp-watch');
 var imagemin = require('gulp-imagemin');
 var pngcrush = require('imagemin-pngcrush');
 var del = require('del');
-
 var DEST = 'target/';
+
+var version = "?v=1.0.0"
 
 // Clean up
 gulp.task('clean', function(cb) {
@@ -22,8 +23,8 @@ gulp.task('clean', function(cb) {
 gulp.task('css', function(){
 
   gulp.src('./assets/css/*.css')
-  .pipe(minifycss())
-  .pipe(concat("bmorearoundtown.min.css"))
+  .pipe(minifycss({keepBreaks:true}))
+  .pipe(concat("bmorearoundtown.min.css" + version))
   .pipe(gulp.dest(DEST))
   .pipe(notify({message: "CSS pipe finished and placed in " + DEST}));
 
@@ -53,12 +54,12 @@ gulp.task('js', function() {
 
   gulp.src('./assets/js/bmorearoundtown.js')
   .pipe(uglify())
-  .pipe(rename({ extname: '.min.js' }))
+  .pipe(rename({ extname: '.min.js' + version }))
   .pipe(gulp.dest(DEST));
 
   gulp.src('./assets/js/vendor/**/*.js')
   .pipe(uglify())
-  .pipe(concat("vendor.min.js"))
+  .pipe(concat("vendor.min.js" + version))
   .pipe(gulp.dest(DEST))
   .pipe(notify({message: "Javascript pipe finished and placed in " + DEST}));
 
