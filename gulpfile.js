@@ -1,12 +1,12 @@
 'use strict';
 
 var gulp = require('gulp');
-var rename = require('gulp-rename');
 var uglify = require('gulp-uglify');
 var minifycss = require('gulp-minify-css');
-var watch = require('gulp-watch');
 var concat = require('gulp-concat');
 var notify = require('gulp-notify');
+var rename = require('gulp-rename');
+var watch = require('gulp-watch');
 
 var DEST = 'target/';
 
