@@ -14,7 +14,7 @@
 
 	<?php if( $isProduction || $isTest ){ ?>
 
-		<link rel="stylesheet" href="/target/bmorearoundtown.min.css?v=1.0.0" />
+		<link rel="stylesheet" href="/target/bmorearoundtown.min.css?v=1.0.1" />
 
 	<?php } else { ?>
 

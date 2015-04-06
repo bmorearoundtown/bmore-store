@@ -67,8 +67,8 @@
 
 <?php if( $isProduction || $isTest ){ ?>
 
-  <script src="/target/vendor.min.js?v=1.0.0"></script>
-  <script src="/target/bmorearoundtown.min.js?v=1.0.0"></script>
+  <script src="/target/vendor.min.js?v=1.0.1"></script>
+  <script src="/target/bmorearoundtown.min.js?v=1.0.1"></script>
 
 <?php } else { ?>
 
